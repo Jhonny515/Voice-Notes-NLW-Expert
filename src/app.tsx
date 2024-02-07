@@ -2,6 +2,11 @@ import logo from "./assets/logo-nlw-expert.svg";
 import { NewNoteCard } from "./components/note-card/new-note-card";
 import { NoteCard } from "./components/note-card/note-card";
 
+const note = {
+  date: new Date(),
+  content: "Hello World"
+}
+
 function App() {
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
@@ -18,7 +23,11 @@ function App() {
 
         <NewNoteCard />
 
-        <NoteCard />
+        <NoteCard note={note} />
+        <NoteCard note={{
+          date: new Date(),
+          content: "Segunda nota escrita...."
+        }} />
       
       </div>
 
