@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# NLW Expert - Evento Rocketseat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Trilha**: React
 
-Currently, two official plugins are available:
+### A missão:
+  Criar uma aplicação que permite criar notas a partir de texto ou reconhecimento da fala, utilizando funcionalidades do próprio navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologias:
+- React Typescript
+- Vite
+- Node e NPM
+- Tailwind
+- Radix UI
 
-## Expanding the ESLint configuration
+### Rodando o projeto:
+  Você pode rodar este pacote em sua máquina com **node** e **npm**. Na pasta raiz do projeto, abra um terminal de comandos e digite:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  `npm run dev`
 
-- Configure the top-level `parserOptions` property like this:
+  para rodar o código em modo de desenvolvimento.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  Também pode acessar a aplicação através do link: *(em breve)*
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+###  Agradecimentos
+  Agradecimentos a Rocketseat por nos proporcionar a chance de participar desse evento e a toda a comunidade pela ajuda e companherismo ao longo do projeto.
