@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { X } from "lucide-react";
-import { ChangeEvent, MouseEventHandler, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { toast } from "sonner";
 
 interface NewNoteCardProps {
@@ -51,7 +51,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
             setContent(transcription);
             setIsRecordingLoading(false);
-            
+
         }
         speechRecognition.onerror = (event) => {
             if (event.error == 'no-speech') {

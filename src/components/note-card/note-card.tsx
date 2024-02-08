@@ -13,10 +13,10 @@ interface NoteCardProps {
 }
 
 export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
-    function formatDate(date:Date) {
+    function formatDate(date: Date) {
         return formatDistanceToNow(date, { locale: ptBR, addSuffix: true })
     }
-    
+
     return (
         <Dialog.Root>
             <Dialog.Trigger className="rounded-md text-start bg-slate-800 p-5 gap-3 overflow-hidden relative outline-none hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-300 flex flex-col">
