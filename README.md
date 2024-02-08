@@ -19,7 +19,7 @@
 
   para rodar o código em modo de desenvolvimento.
 
-  Também pode acessar a aplicação através do link: *(em breve)*
+  Também pode acessar a aplicação através do link: https://voicenotes-nlwexpert.onrender.com
 
 ###  Agradecimentos
   Agradecimentos a Rocketseat por nos proporcionar a chance de participar desse evento e a toda a comunidade pela ajuda e companherismo ao longo do projeto.
